@@ -39,6 +39,7 @@ body {
   text-align: center;
 }
 
+/*Here I increased the weight "wght" and added a subtle italic effect with the "slnt". Allowed for ann attention grabbing heading for the page. */
 h1 {
   font-size: 48px;
   margin-bottom: 20px;
@@ -47,6 +48,7 @@ h1 {
     'slnt' -12;
 }
 
+/*For this paragraph text I kept the wght of the text lower for a clear read, increased the CASL to provide a more casual or clean look compared to the heading, and kept the MONO at a 0. This helped keep it digestible in comparison */
 p {
   font-size: 20px;
   font-variation-settings:
@@ -55,6 +57,7 @@ p {
     'MONO' 0;
 }
 
+/*I added a transition for the dynamic typographic effect. This allows the text in the box area to transition subtly into the effect.*/
 .demo-text {
   margin-top: 30px;
   padding: 20px;
@@ -63,6 +66,7 @@ p {
   transition: font-variation-settings 0.5s ease;
 }
 
+/*When hovered, the text becomes more bold, italicized, and spaced out with the wght, slnt, and MONO effects applied */
 .demo-text:hover {
   font-variation-settings:
     'wght' 800,
